@@ -8,7 +8,7 @@ namespace WinFormsApp1
 
         public string selectedFileName1;
         public string selectedROMName1;
-        public int imageNumber = 0;
+        public int imageNumber = 1;
 
 
 
@@ -22,11 +22,6 @@ namespace WinFormsApp1
             materialNext.Enabled = false;  // Next Image
             materialBack.Enabled = false;  // Back Image
             materialROMpath.Enabled = false;
-            // pictureBox1.ImageLocation = string.Format(@"0.png", imageNumber);
-            // pictureBox1.ImageLocation = this.BackgroundImage = Properties.Resources.0;
-            // pictureBox1.ImageLocation = this.BackgroundImage = Properties.Resources._0;
-            // Image img1 = Properties.Resources._0;
-            // pictureBox1.Image = img1;
 
             pictureBox1.Visible = true;
             pictureBox2.Visible = false;
@@ -34,7 +29,6 @@ namespace WinFormsApp1
             pictureBox4.Visible = false;
             pictureBox5.Visible = false;
             pictureBox6.Visible = false;
-
 
 
 
@@ -127,12 +121,7 @@ namespace WinFormsApp1
         {
             imageNumber--;
 
-            pictureBox1.ImageLocation = string.Format(@"Images\{0}.png", imageNumber);
-            string nuotrauka = string.Format(@"Images\{0}.png", imageNumber);
-
-            // System.Windows.Forms.MessageBox.Show("Image Is: " + nuotrauka.ToString(), "Message");
-
-            if (imageNumber == 5)
+            if (imageNumber == 6)
             {
                 materialNext.Enabled = false;
                 materialROMpath.Enabled = true;
@@ -141,7 +130,7 @@ namespace WinFormsApp1
             switch (imageNumber)
             {
 
-                case 0:
+                case 1:
                     materialBack.Enabled = false;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -156,7 +145,7 @@ namespace WinFormsApp1
 
                     break;
 
-                case 1:
+                case 2:
                     materialBack.Enabled = true;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -170,7 +159,7 @@ namespace WinFormsApp1
                     pictureBox6.Visible = false;
 
                     break;
-                case 2:
+                case 3:
                     materialBack.Enabled = true;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -184,7 +173,7 @@ namespace WinFormsApp1
                     pictureBox6.Visible = false;
 
                     break;
-                case 3:
+                case 4:
                     materialBack.Enabled = true;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -198,7 +187,7 @@ namespace WinFormsApp1
                     pictureBox6.Visible = false;
 
                     break;
-                case 4:
+                case 5:
                     materialBack.Enabled = true;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -212,7 +201,7 @@ namespace WinFormsApp1
                     pictureBox6.Visible = false;
 
                     break;
-                case 5:
+                case 6:
                     materialBack.Enabled = true;
                     materialNext.Enabled = false;
                     materialROMpath.Enabled = true;
@@ -233,17 +222,16 @@ namespace WinFormsApp1
         {
             imageNumber++;
 
-            pictureBox1.ImageLocation = string.Format(@"Images\{0}.png", imageNumber);
-            string nuotrauka = string.Format(@"Images\{0}.png", imageNumber);
-
-            // System.Windows.Forms.MessageBox.Show("Image Is: " + nuotrauka.ToString(), "Message");
-
-
+            if (imageNumber == 6)
+            {
+                materialNext.Enabled = false;
+                materialROMpath.Enabled = true;
+            }
 
             switch (imageNumber)
             {
 
-                case 0:
+                case 1:
                     materialBack.Enabled = false;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -258,7 +246,7 @@ namespace WinFormsApp1
 
                     break;
 
-                case 1:
+                case 2:
                     materialBack.Enabled = true;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -272,7 +260,7 @@ namespace WinFormsApp1
                     pictureBox6.Visible = false;
 
                     break;
-                case 2:
+                case 3:
                     materialBack.Enabled = true;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -286,7 +274,7 @@ namespace WinFormsApp1
                     pictureBox6.Visible = false;
 
                     break;
-                case 3:
+                case 4:
                     materialBack.Enabled = true;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -300,7 +288,7 @@ namespace WinFormsApp1
                     pictureBox6.Visible = false;
 
                     break;
-                case 4:
+                case 5:
                     materialBack.Enabled = true;
                     materialNext.Enabled = true;
                     materialROMpath.Enabled = false;
@@ -314,7 +302,7 @@ namespace WinFormsApp1
                     pictureBox6.Visible = false;
 
                     break;
-                case 5:
+                case 6:
                     materialBack.Enabled = true;
                     materialNext.Enabled = false;
                     materialROMpath.Enabled = true;
@@ -336,6 +324,60 @@ namespace WinFormsApp1
 
         }
 
-     
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            var uri = "https://github.com/Arinautic/ROMifier";
+            var psi = new System.Diagnostics.ProcessStartInfo();
+            psi.UseShellExecute = true;
+            psi.FileName = uri;
+            System.Diagnostics.Process.Start(psi);
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            var uri = "https://www.paypal.com/donate/?hosted_button_id=TFFXQE5E4XE28";
+            var psi = new System.Diagnostics.ProcessStartInfo();
+            psi.UseShellExecute = true;
+            psi.FileName = uri;
+            System.Diagnostics.Process.Start(psi);
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo ps = new ProcessStartInfo();
+            ps.FileName = "cmd.exe";
+            ps.WindowStyle = ProcessWindowStyle.Normal;
+            ps.Arguments = @"/k fastboot devices";
+            Process.Start(ps);
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo ps = new ProcessStartInfo();
+            ps.FileName = "cmd.exe";
+            ps.WindowStyle = ProcessWindowStyle.Normal;
+            ps.Arguments = @"/k fastboot devices";
+            Process.Start(ps);
+
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo ps = new ProcessStartInfo();
+            ps.FileName = "cmd.exe";
+            ps.WindowStyle = ProcessWindowStyle.Normal;
+            ps.Arguments = @"/k adb devices";
+            Process.Start(ps);
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo ps = new ProcessStartInfo();
+            ps.FileName = "cmd.exe";
+            ps.WindowStyle = ProcessWindowStyle.Normal;
+            ps.Arguments = @"/k adb devices";
+            Process.Start(ps);
+        }
     }
 }
