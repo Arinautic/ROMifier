@@ -35,7 +35,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/Arinautic/arinautic.github.io/blob/main/screenshot.png)
 
-As a Custom ROM user myself, I have noticed that others are skeptical when it comes to installing one, becaause they tend to find it scary. That is exactly why I have created this application.
+As a Custom ROM user myself, I have noticed that others are skeptical when it comes to installing one, because they tend to find it scary. That is exactly why I have created this application.
 
 What does ROMifier do?:
 * ROMifier removes the need for using the command line.
