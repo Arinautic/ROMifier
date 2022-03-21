@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{D451A100-3A5D-4E0D-BFBF-F614BDF8F672}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ROMifier", "ROMifier\ROMifier.vdproj", "{4178AED6-E94A-4936-B3E2-747E3C2D2B86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D451A100-3A5D-4E0D-BFBF-F614BDF8F672}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{D451A100-3A5D-4E0D-BFBF-F614BDF8F672}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{D451A100-3A5D-4E0D-BFBF-F614BDF8F672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D451A100-3A5D-4E0D-BFBF-F614BDF8F672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4178AED6-E94A-4936-B3E2-747E3C2D2B86}.Debug|Any CPU.ActiveCfg = Release
+		{4178AED6-E94A-4936-B3E2-747E3C2D2B86}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67535446-6544-42CA-BD46-9E8E30F1AC5E}
+	EndGlobalSection
+EndGlobal
