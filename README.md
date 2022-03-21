@@ -1,11 +1,11 @@
 <div id="top"></div>
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GPL-3.0 License][license-shield]][license-url]
+[![Arinautic - ROMifier](https://img.shields.io/static/v1?label=Arinautic&message=ROMifier&color=purple&logo=github)](https://github.com/Arinautic/ROMifier "Go to GitHub repo")
+[![stars - ROMifier](https://img.shields.io/github/stars/Arinautic/ROMifier?style=social)](https://github.com/Arinautic/ROMifier)
+[![forks - ROMifier](https://img.shields.io/github/forks/Arinautic/ROMifier?style=social)](https://github.com/Arinautic/ROMifier)
 
-
+[![GitHub release](https://img.shields.io/github/release/Arinautic/ROMifier?include_prereleases=&sort=semver&color=purple)](https://github.com/Arinautic/ROMifier/releases/)
+[![License](https://img.shields.io/badge/License-GPL--3.0-purple)](#license)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -73,18 +73,3 @@ To get started, all you have to do is download the program from our Releases pag
 Distributed under the GNU v3.0 License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/Arinautic/ROMifier/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/Arinautic/ROMifier/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/Arinautic/ROMifier/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/Arinautic/ROMifier/blob/v1.0.0-beta/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[product-screenshot]: https://github.com/Arinautic/arinautic.github.io/blob/main/screenshot.png
