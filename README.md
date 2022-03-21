@@ -72,3 +72,9 @@ To get started, all you have to do is download the program from our Releases pag
 Distributed under the GNU v3.0 License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+
+[product-screenshot]: https://github.com/Arinautic/arinautic.github.io/blob/main/screenshot.png
