@@ -51,7 +51,7 @@ fork the project if they have ideas themselves.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Multiple coding languages and frameworks have been used for this project:
 
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [.NET](https://dotnet.microsoft.com/en-us/)
