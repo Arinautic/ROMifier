@@ -3,7 +3,6 @@
 [![Arinautic - ROMifier](https://img.shields.io/static/v1?label=Arinautic&message=ROMifier&color=purple&logo=github)](https://github.com/Arinautic/ROMifier "Go to GitHub repo")
 [![stars - ROMifier](https://img.shields.io/github/stars/Arinautic/ROMifier?style=social)](https://github.com/Arinautic/ROMifier)
 [![forks - ROMifier](https://img.shields.io/github/forks/Arinautic/ROMifier?style=social)](https://github.com/Arinautic/ROMifier)
-
 [![GitHub release](https://img.shields.io/github/release/Arinautic/ROMifier?include_prereleases=&sort=semver&color=purple)](https://github.com/Arinautic/ROMifier/releases/)
 [![License](https://img.shields.io/badge/License-GPL--3.0-purple)](#license)
 
